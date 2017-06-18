@@ -33,8 +33,8 @@
         <!-- End Region Spring Framework Dependencies -->
 
         <!-- Region Database dependencies -->
-        <!-- Spring data JPA -->
         <dependency>
+            <!-- Spring data JPA -->
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
             <exclusions>
@@ -44,20 +44,29 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- Mysql driver -->
         <dependency>
+            <!-- Mysql driver -->
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql.connector.version}</version>
         </dependency>
-        <!-- HikariCP connection pool -->
         <dependency>
+            <!-- HikariCP connection pool -->
             <groupId>com.zaxxer</groupId>
             <artifactId>HikariCP</artifactId>
             <version>2.6.0</version>
         </dependency>
-
         <!-- End Region Database dependencies -->
+
+        <!-- Region Other Third Party Libraries -->
+        <dependency>
+            <!-- Helper and utility methods -->
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.5</version>
+        </dependency>
+        <!-- End Region Other Third Party Libraries -->
+
     </dependencies>
 
     <build>
