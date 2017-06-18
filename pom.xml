@@ -67,6 +67,14 @@
         </dependency>
         <!-- End Region Other Third Party Libraries -->
 
+        <!-- Region Pure Test Dependencies -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- End Region Pure Test Dependecies -->
     </dependencies>
 
     <build>
